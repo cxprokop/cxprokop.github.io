@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.header{
+	background:url(../img/header-bg.jpg) no-repeat;
+	background-size:cover;
+	padding-top:20px;
+	width:1400;
+	height:711px;
+	
+}
+.header-top{
+	margin-bottom:220px;
+}
+.nav-menu{
+	list-style:none;
+	padding-top:10px;
+	
+}
+.nav-menu li{
+	display: inline-block;
+	margin-left:60px;
+}
+.nav-menu a{
+	color:#ffffff;
+	text-decoration:none; 
+	font-weight:600;
+}
+.header h1{
+	font-family: 'Lora', serif;
+	color:#ffffff;
+	font-size: 58px;
+	line-height: 23px;
+	font-weight:bold;
+}
+.velox-one{
+	margin-bottom:40px;
+}
+.header .clean{
+	font-size: 25px;
+	line-height: 23px;
+	color:#ffffff;
+	margin-bottom:80px;
+}
+.button{
+	font-size: 25px;
+	line-height: 23px;
+	color:#ffffff;
+	text-decoration: none;
+	padding:20px 70px;
+	background:#1d91e1;
+	border-radius:35px;
+	box-shadow:2px 2px 5px rgba(0,0,0,0.25);
+}
+.button:hover{
+	font-size: 25px;
+	line-height: 23px;
+	color:#ffffff;
+	text-decoration: none;
+}
+.services{
+	padding-top: 70px;
+	padding-bottom: 90px;
+}
+.services .row:first-child{
+	margin-bottom:100px; 
+}
+.our-services h2{
+	font-size: 42px;
+	font-weight: bold;
+	line-height:23px;
+	color:#3a3f4b;
+	font-family: 'Lora', serif;
+	margin-bottom:px;
+	text-transform: uppercase;
+}
+.border-bottom-blue{
+	border-bottom:4px solid #00a5ff;
+	width:147px;
+	height:1px;
+	display:inline-block;
+	margin-top: 30px;
+}
+.icon{
+	width:80px;
+	height:80px;
+	background-color:#f5f6f8;
+	border-radius:50%;
+	position:relative;
+	display:inline-block;
+}
+.icon-img{
+	position:absolute;
+	display:block;
+	padding:20px;
+}
+.design{
+	padding-left:24px;
+}
+.branding{
+	display:block;
+	padding:20px 27px;
+}
+.border-bottom-black{
+	border:1px solid #888888;
+	width:41px;
+	height:2px;
+	display:inline-block;
+	margin-bottom:20px;
+}
+.icons h4{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	color:#3a3f4b;
+	letter-spacing:0.1em;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+.icons p{
+	font-size: 12px;
+	line-height: 20px;
+	color:#999999;
+	letter-spacing:0.1em;
+}
+.port{
+	padding-top:45px;
+	padding-bottom:80px;
+	background:#f5f6f8;
+}
+.port .row:first-child{
+	margin-bottom:60px;
+}
+.portfolio-menu{
+	margin-bottom:40px;
+	height:40px;
+}
+.portfolio h2{
+	font-size: 42px;
+	font-weight: bold;
+	line-height:23px;
+	color:#3a3f4b;
+	font-family: 'Lora', serif;
+	margin-bottom:px;
+	text-transform:uppercase;
+}
+.portfolio-nav{
+	list-style: none;
+}
+.portfolio-nav li{
+	display:inline-block;
+	margin-right:55px;
+}
+.portfolio-nav a{
+	text-decoration: none;
+	font-size:14px;
+	color:#999999;
+	text-transform:uppercase;
+	display:inline-block;
+	padding-bottom:9px;
+}
+.portfolio-nav a:hover{
+	color:#00a5ff;
+	border-bottom:1px solid #00a5ff;
+
+}
+.portfolio-block{
+	box-shadow:0 2px 5px rgba(0,0,0,0.15);
+	padding:0;
+	width:380px;
+	margin-right:10px;
+}
+.portfolio-block-nomargin{
+	margin-right:0;
+}
+.block-description{
+	color:#999999;
+	font-size:18px;
+	padding: 30px;
+}
+.row-3{
+	margin-bottom:10px;
+}
+.row-4{
+	margin-bottom:60px;
+}
+.portfolio-button{
+	text-transform:uppercase;
+	font-family:open sans;
+	font-size:25px;
+	line-height:23px;
+}
+.brands{
+padding-top:65px;
+padding-bottom:125px;
+}
+.brands h2{
+	font-family: 'Lora', serif;
+	font-size:42px;
+	font-weight: bold;
+	line-height: 20px;
+	color:#3a3f4b;
+	text-transform: uppercase;
+}
+.brands .row-1{
+	margin-bottom:70px;
+}
+.brands img{
+	opacity:.25;
+}
+.brands img:hover{
+	opacity:1;
+}
+.testimonials{
+	background-color:#f5f6f8;
+	padding:65px 0 65px 0;
+}
+.testimonials .row-1{
+	margin-bottom:60px;
+}
+.testimonials h2{
+	font-family: 'Lora', serif;
+	font-size:42px;
+	font-weight: bold;
+	line-height: 20px;
+	color:#3a3f4b;
+	text-transform: uppercase;
+}
+.sl-text{
+	font-family: 'Lora', serif;
+	line-height: 30px;
+	color:#3a3f4b;
+	text-align:center;
+	font-size:18px;
+
+
+}
+.sl-slide img{
+	/*width:130px;
+	height:130px;
+	border-radius: 50%;*/
+	margin:0 auto;
+	margin-bottom:50px;
+
+}
+.footer{
+	padding:30px 0 30px 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	line-height:26px;
+	color:#999999;
+}
+.footer .row-1{
+	position:relative;
+}
+.footer a {
+	display:inline-block;
+	margin-left:10px;
+}
+.btn-circle{
+	width:65px;
+	height: 65px;
+	border-radius: 50%;
+	background-color:#1d91e1;
+	box-shadow:2px 2px 5px rgba(0,0,0,0.25);
+	position:relative;
+	top:-65px;
+	left:48%;
+}
+.btn-circle img{
+	position:absolute;
+	top:40%;
+	right:35%;
+}
+.contact{
+	background-color:#3b404c;
+	padding:85px 0 70px 0;
+}
+.contact .row-1 .col-lg-4{
+	font-family: 'Lora', serif;
+	font-size: 33px;
+	font-weight:bold;
+	line-height:24px;
+	color:#ffffff;
+}
+.contact-menu{
+	list-style:none;
+	
+	
+}
+.contact-menu li{
+	display: inline-block;
+	margin-left:20px;
+}
+.contact-menu a{
+	color:#ffffff;
+	text-decoration:none; 
+	font-weight:;
+	font-size:20px;
+	line-height:43px;
+}
+.contact .row-1{
+	margin-bottom:100px;
+}
+.contact-item{
+	color:#999999;
+	font-family:open sans;
+	font-size:18px;
+	line-height:24px;
+	margin-bottom:60px;
+
+}
+.caption{
+	color:#ffffff;
+	font-size:24px;
+	text-transform:uppercase;
+	line-height: 24px;
+	font-weight:600;
+	margin-bottom:30px;
+	display:inline-block;
+}
+.contact-button{
+	font-weight:600;
+	font-family:open sans;
+	font-size:25px;
+	line-height:23px;
+	padding:20px 55px;
+	outline:none;
+}
+.contact-group{
+	margin-bottom:60px;
+	color:#ffffff;
+	font-family:open sans;
+	font-size:25px;
+	line-height:38px;
+}
+.name{
+	float:left;
+	margin-right:45px;
+}
+
+input{
+	background-color:#3b404c;
+	border:none;
+	border-bottom:1px solid #72747b;
+	outline:none;
+	width:350px;
+
+}
+textarea{
+	background-color:#3b404c;
+	border:none;
+	border-bottom:1px solid #72747b;
+	outline:none;
+}
+input:focus,
+textarea:focus{
+	border-bottom:1px solid #00a5ff;
+}
+
+
+
+
