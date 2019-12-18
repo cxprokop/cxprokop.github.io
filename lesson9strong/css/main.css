@@ -1,0 +1,136 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+body button:focus {
+  outline: none;
+}
+
+body .container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 77px 0 96px;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .container .header-text__title {
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+header .container .header-text__subtitle {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+header .container .header-text__description {
+  margin-bottom: 43px;
+  max-width: 530px;
+  line-height: 27px;
+}
+
+header .container .header-text__price {
+  font-size: 48px;
+  margin-bottom: 56px;
+}
+
+header .container .button {
+  color: #ffffff;
+  padding: 22px 45px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 27px;
+  background-color: #f05a22;
+  border: 2px solid #f05a22;
+  border-radius: 5px;
+}
+
+header .container .button-o {
+  color: #f05a22;
+  background-color: transparent;
+}
+
+.features {
+  background-color: #f2f2f2;
+  padding: 90px 0 90px 0;
+}
+
+.features .section-tittle {
+  font-size: 30px;
+  line-height: 27px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.features .features-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.features .features-block {
+  text-align: center;
+}
+
+.features .features-block__img {
+  min-height: 50px;
+  margin-bottom: 23px;
+}
+
+.features .features-block__text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #636363;
+}
+
+.photos {
+  padding: 90px 0 90px 0;
+}
+
+.photos .section-tittle {
+  text-align: center;
+  margin-bottom: 80px;
+  font-size: 30px;
+  line-height: 27px;
+  font-weight: bold;
+}
+
+.photos .photos-block__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.photos .photos-block__img {
+  max-width: 261px;
+  max-height: 261px;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=main.css.map */
