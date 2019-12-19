@@ -1,2 +1,125 @@
-body {
-  background: gray; }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 25px 0 150px 0;
+  background-image: url(../img/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+header .header-row__top {
+  margin-bottom: 220px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header-logo img {
+  width: 130px;
+}
+
+header .header-nav__bar .header-nav-bar__item {
+  display: inline-block;
+  margin-left: 60px;
+  font-size: 14px;
+  color: #e0e1e3;
+}
+
+header .header-tittle {
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 58px;
+  line-height: 23px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+header .header-description {
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 95px;
+}
+
+header button {
+  display: block;
+  font-size: 25px;
+  line-height: 23px;
+  color: #ffffff;
+  background-color: #00a5ff;
+  border-radius: 35px;
+  padding: 25px 70px;
+  margin: 0 auto;
+}
+
+.services {
+  background-color: #fff;
+  padding: 70px 0 100px 0;
+}
+
+.services .services-tittle {
+  text-transform: capitalize;
+  color: #3a3f4b;
+  font-size: 42px;
+  line-height: 23px;
+  font-weight: bold;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.services .services-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services .services-list__img {
+  background-color: #f5f6f8;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services .services-list__tittle {
+  font-size: 18px;
+  text-transform: uppercases;
+  color: #3a3f4b;
+}
+
+.services .services-list__description {
+  color: #a6a6a6;
+  font-size: 12px;
+  line-height: 20px;
+}
+/*# sourceMappingURL=main.css.map */
