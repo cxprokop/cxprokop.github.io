@@ -1,84 +1,128 @@
-a
-	text-decoration: none
-	color: inherit
+@import "_fonts.sass"
 .container
 	width: 1170px
 	margin: 0 auto
-header
+a
+	text-decoration: none
+	color: inherit	
+button
+	display: block
+	font-size: 25px
+	line-height: 23px
+	color: #ffffff
+	background-color: #00a5ff
+	border-radius: 35px
+	padding: 25px 70px	
+	margin: 0 auto
+	border: none
+body
+	font-family: 'Open Sans', sans-serif
+header	
 	padding: 25px 0 150px 0
 	background-image: url(../img/header-bg.png)
 	background-repeat: no-repeat
 	background-size: 100%
-	.header-row__top
-		margin-bottom: 220px
-		display: flex
-		justify-content: space-between
-		align-items: center
-	.header-logo
-		img
-		 width: 130px
-	.header-nav__bar
-		.header-nav-bar__item
-			display: inline-block
-			margin-left: 60px	 
-			font-size: 14px
-			color: #e0e1e3
-	.header-tittle
-		text-transform: capitalize
-		color: #fff
-		font-size: 58px
-		line-height: 23px
-		font-weight: bold
-		text-align: center
-		margin-bottom: 50px
-	.header-description	
-			color: #ffffff
-			font-size: 25px
-			line-height: 23px
-			text-align: center
-			margin-bottom: 95px
-	button
-		display: block
-		font-size: 25px
-		line-height: 23px
-		color: #ffffff
-		background-color: #00a5ff
-		border-radius: 35px
-		padding: 25px 70px	
-		margin: 0 auto
+.header-content
+	display: flex
+	justify-content: space-between
+	align-items: center
+	margin-bottom: 220px
+.header-logo
+	max-width: 130px
+.header-nav
+	a	
+		margin-left: 60px	 
+		font-size: 14px
+		color: #e0e1e3
+.header-title
+	font-family: 'Lora-Bold'
+	text-transform: capitalize
+	color: #fff
+	font-size: 58px
+	line-height: 23px
+	font-weight: bold
+	text-align: center
+	margin-bottom: 50px
+.header-description	
+	color: #ffffff
+	font-size: 25px
+	line-height: 23px
+	text-align: center
+	margin-bottom: 95px
 .services
 	background-color: #fff
 	padding: 70px 0 100px 0
-	.services-tittle
-		text-transform: capitalize
-		color: #3a3f4b
-		font-size: 42px 
-		line-height: 23px
-		font-weight: bold
-		margin-bottom: 100px
-		text-align: center
-	.services-list
-		display: flex
-		justify-content: space-between
-		align-items: center
-	.services-list__img
-		background-color: #f5f6f8
-		width: 80px
-		height: 80px
-		border-radius: 50%
-		display: flex
-		justify-content: center
-		align-items: center
-	.services-list__tittle
-		font-size: 18px
-		text-transform: uppercases
-		color: #3a3f4b
-	.services-list__description
-		color: #a6a6a6
-		font-size: 12px
-		line-height: 20px	
+	
+.services-title
+	font-family: 'Lora-Bold'
+	text-transform: uppercase                                
+	color: #3a3f4b
+	font-size: 42px 
+	line-height: 23px
+	font-weight: bold
+	margin-bottom: 100px
+	text-align: center
+	position: relative
+.services-title:after
+		content: ''
+		width: 145px
+		height: 5px
+		background-color: #00a5ff
+		display: block
+		position: absolute
+		margin-top:	30px
+		left: 50%	
+		margin-left: -70px
+
+.services-list
+	display: flex
+	justify-content: space-between
+	align-items: center
+.services-item
+	display: flex
+	flex-direction: column	
+	justify-content: space-between
+	// align-items: flex-start
+	margin-right: 50px	
+.services-img
+	// max-height: 35px
+// .services-img:before
+// 	content: ''
+// 	display: block
+// 	width: 80px
+// 	height: 80px
+// 	border-radius: 100%
+// 	background-color: #f5f6f8
+
+.services-item__tittle
+	font-size: 18px
+	color: #3a3f4b
+	text-transform: uppercase
+	font-family: 'SourceSansPro-Semibold'
+	text-align: center
+	position: relative
+	margin-bottom: 40px
+.services-item__tittle:after
+	content: ''
+	display: block
+	position: absolute
+	width: 40px
+	height: 2px
+	background-color: #888888
+	margin-top: 20px
+	left: 50%
+	margin-left: -20px
+
+.services-item__description
+	font-family: 'OpenSans-Light'
+	font-size: 12px
+	line-height: 20px
+	color: #999999
+	text-align: center
 
 
 
 
 
+
+	
