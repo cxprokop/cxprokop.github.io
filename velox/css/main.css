@@ -1,69 +1,11 @@
-@font-face {
-  font-family: 'Lora-Bold';
-  src: url("../fonts/lora/Lora-Bold.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'lora';
-  src: url("../fonts/lora/lora.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'SourceSansPro-Semibold';
-  src: url("../fonts/source-sans-pro-semibold/SourceSansPro-Semibold.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'source-sans-pro-semibold_[allfont.ru]';
-  src: url("../fonts/source-sans-pro-semibold/source-sans-pro-semibold_[allfont.ru].woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: '2209';
-  src: url("../fonts/OpenSans-Light/2209.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'OpenSans-Light';
-  src: url("../fonts/OpenSans-Light/OpenSans-Light.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.container {
-  width: 1170px;
-  margin: 0 auto;
-}
-
 a {
   text-decoration: none;
   color: inherit;
 }
 
-button {
-  display: block;
-  font-size: 25px;
-  line-height: 23px;
-  color: #ffffff;
-  background-color: #00a5ff;
-  border-radius: 35px;
-  padding: 25px 70px;
+.container {
+  width: 1170px;
   margin: 0 auto;
-  border: none;
-}
-
-body {
-  font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -73,7 +15,8 @@ header {
   background-size: 100%;
 }
 
-.header-content {
+header .header-row__top {
+  margin-bottom: 220px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -83,21 +26,20 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 220px;
 }
 
-.header-logo {
-  max-width: 130px;
+header .header-logo img {
+  width: 130px;
 }
 
-.header-nav a {
+header .header-nav__bar .header-nav-bar__item {
+  display: inline-block;
   margin-left: 60px;
   font-size: 14px;
   color: #e0e1e3;
 }
 
-.header-title {
-  font-family: 'Lora-Bold';
+header .header-tittle {
   text-transform: capitalize;
   color: #fff;
   font-size: 58px;
@@ -107,7 +49,7 @@ header {
   margin-bottom: 50px;
 }
 
-.header-description {
+header .header-description {
   color: #ffffff;
   font-size: 25px;
   line-height: 23px;
@@ -115,36 +57,33 @@ header {
   margin-bottom: 95px;
 }
 
+header button {
+  display: block;
+  font-size: 25px;
+  line-height: 23px;
+  color: #ffffff;
+  background-color: #00a5ff;
+  border-radius: 35px;
+  padding: 25px 70px;
+  margin: 0 auto;
+}
+
 .services {
   background-color: #fff;
   padding: 70px 0 100px 0;
 }
 
-.services-title {
-  font-family: 'Lora-Bold';
-  text-transform: uppercase;
+.services .services-tittle {
+  text-transform: capitalize;
   color: #3a3f4b;
   font-size: 42px;
   line-height: 23px;
   font-weight: bold;
   margin-bottom: 100px;
   text-align: center;
-  position: relative;
 }
 
-.services-title:after {
-  content: '';
-  width: 145px;
-  height: 5px;
-  background-color: #00a5ff;
-  display: block;
-  position: absolute;
-  margin-top: 30px;
-  left: 50%;
-  margin-left: -70px;
-}
-
-.services-list {
+.services .services-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -156,47 +95,31 @@ header {
           align-items: center;
 }
 
-.services-item {
+.services .services-list__img {
+  background-color: #f5f6f8;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-right: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.services-item__tittle {
+.services .services-list__tittle {
   font-size: 18px;
+  text-transform: uppercases;
   color: #3a3f4b;
-  text-transform: uppercase;
-  font-family: 'SourceSansPro-Semibold';
-  text-align: center;
-  position: relative;
-  margin-bottom: 40px;
 }
 
-.services-item__tittle:after {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 40px;
-  height: 2px;
-  background-color: #888888;
-  margin-top: 20px;
-  left: 50%;
-  margin-left: -20px;
-}
-
-.services-item__description {
-  font-family: 'OpenSans-Light';
+.services .services-list__description {
+  color: #a6a6a6;
   font-size: 12px;
   line-height: 20px;
-  color: #999999;
-  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
